@@ -1,0 +1,77 @@
+@import "./comment.scss";
+
+@function px2rem($px){
+    @return ($px / 50) * 1rem;
+}
+
+body {
+    min-width: 320px;
+    max-width: 15rem;  /* 15*50 = 750     15*25 = 375 */
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    width: 15rem;
+    height: px2rem(88);
+    background-color: #fdb41d;
+    display: flex;
+    
+
+    .type{
+        float: left;
+        width: px2rem(44);
+        height: px2rem(70);
+        margin: px2rem(11) px2rem(24) px2rem(6) px2rem(24);
+       
+        background:url(../images/classify.png);
+        background-size: px2rem(44) px2rem(70);
+    }
+    .search{
+        position: relative;
+        flex: 1;
+        margin-top: px2rem(13);
+        margin-bottom: px2rem(9);
+        // align-items: center;
+        background-color: #fef0c1;
+        border-radius: px2rem(33);
+        overflow: hidden;
+
+        .search-icon{
+            position: absolute;
+            width: px2rem(36);
+            height: px2rem(36);
+            top: px2rem(16);
+            left: px2rem(10);
+            background: url(../images/search.png);
+            background-size: px2rem(36);
+        }
+
+
+        input{
+            width: 100%;
+            height: 100%;
+            vertical-align: middle;
+            // padding-top: px2rem(10);
+            // height: px2rem(66);
+            // margin-top: px2rem(-9);
+            font-size: px2rem(25);
+            margin-left: px2rem(55);
+            border: 0px;
+            outline: none;
+            background-color: #fef0c1;
+        }
+    }
+    .login{
+        float: right;
+        width: px2rem(50);
+        height: px2rem(28);
+        margin: px2rem(33) px2rem(13) px2rem(14)  px2rem(22);
+        font-size: px2rem(25);
+        background-color: red;
+    }
+}
