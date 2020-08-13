@@ -137,6 +137,62 @@ a {
   height: 0.56rem;
   margin: 0.66rem 0.26rem 0.28rem 0.44rem;
   font-size: 0.5rem;
-  background-color: red;
+  color: #fff;
+}
+
+.banner {
+  width: 15rem;
+  height: 5.6rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  padding-bottom: 0.8rem;
+}
+
+.menu .items {
+  float: left;
+  width: 20%;
+}
+
+.menu .items a img {
+  display: block;
+  width: 1.28rem;
+  height: 1.28rem;
+  margin: 0  auto;
+  margin-top: 0.42rem;
+}
+
+.menu .items a .text {
+  font-size: 0.44rem;
+  text-align: center;
+  color: #424242;
+}
+
+.redpack {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+.redpack a {
+  float: left;
+}
+
+.redpack .first img {
+  width: 7.46rem;
+  height: 4.68rem;
+}
+
+.redpack a:nth-child(n+2) img {
+  width: 3.72rem;
+  height: 4.68rem;
+  margin-left: 0.04rem;
 }
 /*# sourceMappingURL=index.css.map */

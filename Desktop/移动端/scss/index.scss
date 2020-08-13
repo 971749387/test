@@ -72,6 +72,80 @@ a {
         height: px2rem(28);
         margin: px2rem(33) px2rem(13) px2rem(14)  px2rem(22);
         font-size: px2rem(25);
-        background-color: red;
+        // background-color: red;
+        color: #fff;
+    }
+}
+
+.banner{
+    width: px2rem(750);
+    height: px2rem(280);
+    // background-color: green;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.menu{
+
+    // box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(249, 249, 249);
+    padding-bottom: px2rem(40);
+
+
+    .items{
+        float: left;
+        width: 20%;
+        // height: px2rem(120);
+        // padding-top: px2rem(14);
+
+        a{
+            
+
+            img{
+                display: block;
+                width: px2rem(64);
+                height: px2rem(64);
+                margin: 0  auto;
+                margin-top: px2rem(21);
+
+            }
+
+            .text{
+                font-size: px2rem(22);
+                text-align: center;
+                color: #424242;
+            }
+        }
+    }
+    
+}
+
+.redpack {
+    width: 100%;
+    // float: left;
+    margin-top: px2rem(20);
+
+    a{
+        float: left;
+    }
+
+    .first {
+        img{
+            width: px2rem(373);
+            height: px2rem(234);
+        }
+    }
+
+    a:nth-child(n+2){
+        img{
+            width: px2rem(186);
+            height: px2rem(234);
+            margin-left: px2rem(2);
+        }
     }
 }
